@@ -1,0 +1,54 @@
+/* Estilização básica para o corpo */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Fonte moderna, similar à do Spotify */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Fundo preto do Spotify */
+    color: #e0e0e0; /* Texto claro para contraste */
+}
+
+/* Centralização e layout */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #1e1e1e; /* Fundo escuro para o conteúdo */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Sombra mais pronunciada */
+}
+
+/* Estilo para títulos */
+h1, h2, h3, h4 {
+    color: #1db954; /* Cor verde do Spotify */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Estilo para listas */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para link */
+a {
+    color: #1db954; /* Cor verde*/
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
